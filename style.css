@@ -11,6 +11,11 @@
 body {
   background-color: hsl(212, 45%, 89%);
   position: relative;
+  max-height: 100vh;
+}
+
+.sr-only {
+  display: none;
 }
 
 .card {
