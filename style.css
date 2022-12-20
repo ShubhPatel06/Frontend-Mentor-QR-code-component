@@ -10,8 +10,10 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
-  position: relative;
-  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .sr-only {
@@ -23,11 +25,6 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 1.25rem;
   padding: 0.8rem;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
 
   display: flex;
   justify-content: center;
